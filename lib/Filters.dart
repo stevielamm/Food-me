@@ -137,8 +137,8 @@ class _FilterState extends State<Filter> {
             ),
             Column(children: <Widget>[
               Container(
-                height: 50.0,
-                width: 325.0,
+                height: 45.0,
+                width: 250.0,
                 color: Colors.transparent,
                 child: Container(
                     decoration: BoxDecoration(
@@ -146,7 +146,7 @@ class _FilterState extends State<Filter> {
                         borderRadius: BorderRadius.all(Radius.circular(25.0))),
                     child: new FlatButton(
                       child: new Text(
-                        "DONE !",
+                        "DONE",
                         style: TextStyle(color: Colors.white, fontSize: 20),
                         textAlign: TextAlign.center,
                       ),

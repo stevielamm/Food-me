@@ -14,7 +14,8 @@ class restList extends StatefulWidget {
 }
 
 class _restListState extends State<restList> {
-  List<String> names = ["Jinza Teriyaki", "Taco Gourmet Simply Fresh", "Panda Express", "Qdoba"];
+  List<String> names = ["Jinza Teriyaki", "Taco Gourmet Simply Fresh", "Panda Express", "Qdoba", "Hibachi-San",
+    "Restaurant At Kellogg Ranch","VITA Italian Bar and Grill","Subway","Koji Ramen Japanese Restaurant","O Sushi A Grill","La Villa Kitchen","Mr. Poke","Mazesoba Hero","Smoke And Fire Social Eatery"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,8 +43,14 @@ class _restListState extends State<restList> {
                 )
               ]).show();
         },
-        child: Text('random'),
-        backgroundColor: Colors.white
+
+          child: Center(
+            child: Text(
+              "food me",
+              textAlign: TextAlign.center,
+            ),
+          ),
+        backgroundColor: Colors.grey
       ),
     );
   }
