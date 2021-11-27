@@ -2,7 +2,7 @@
     package="com.example.food_app">
 
    <application
-        android:label="food_app"
+        android:label="food me"
         android:icon="@mipmap/ic_launcher">
 
         <activity

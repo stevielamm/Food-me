@@ -87,10 +87,13 @@ class _TipCalculatorState extends State<TipCalculator> {
                 decoration: BoxDecoration(
                     color: Colors.grey[350],
                     borderRadius: BorderRadius.circular(18)),
+                child: Center(
                 child: Text(
                   "Calculate",
+                  textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.white, fontSize: 19),
                 ),
+              ),
               ),
             ),
             SizedBox(

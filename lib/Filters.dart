@@ -4,7 +4,6 @@ import 'package:food_app/randomizerR.dart';
 import 'package:food_app/restaurant_list.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:syncfusion_flutter_sliders/sliders.dart';
-import 'package:dio/dio.dart';
 
 class Filter extends StatefulWidget {
   Filter({Key? key, required this.title}) : super(key: key);

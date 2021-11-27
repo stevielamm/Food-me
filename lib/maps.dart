@@ -4,7 +4,6 @@ import 'package:http/http.dart';
 import 'package:flutter/material.dart';
 import 'package:food_app/Filters.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:dio/dio.dart';
 
 
 class mapPage extends StatefulWidget {
